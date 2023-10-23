@@ -1,0 +1,148 @@
+/* .label4 {
+    height: 244px;
+    width: 1180px;
+  } */
+  
+  .label4 .at-procore {
+    color: transparent;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    /* position: fixed; */
+    /* width: 1180px; */
+    
+  }
+  
+  .label4 .text-wrapper4 {
+    color: #000000;
+  }
+  
+  .label4 .span {
+    color: #ff7518;
+    font-family: "Segoe UI-Bold", Helvetica;
+    font-weight: 700;
+  }
+  
+  .hometextone{
+    font-size: 2.5rem;
+  color: #ff7518  ;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  }
+
+  .uldot1{
+    font-size: 1.5rem;
+    color: #000000;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-weight: 400;
+
+  }
+  .bob11{
+    margin-top: 20%;
+  }
+  .hthree{
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 28px;
+    font-weight: 700;
+
+  }
+  .parahome{
+    color: #000000;
+font-family: "Inter-Regular", Helvetica;
+font-size: 26px;
+font-weight: 400;
+
+  }
+
+
+/* .bob002{
+} */
+
+
+
+  .clickhere{
+    color: #ff7518;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 26px;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+  .picbttext{
+    background: #2F2F2F;
+    color: #D9D9D9;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10% 5% 10% 5%;
+    border-radius: 10px;
+    text-align: center;
+    width: 90%;
+  }
+
+  /* .hoverall:hover{
+    background: #ff7518;
+  } */
+
+  .onlyone:hover > .childetd:nth-child(2) {
+    background: #ff7518;
+    cursor: pointer;
+    color: #2F2F2F;
+}
+
+
+
+
+/* Styles for screens smaller than 768 pixels */
+@media (max-width: 767px) {
+  .example {
+    background: green;
+    /* display: none; */
+    
+  }
+  .bob11{
+    width: 100%;
+  }
+  .picbttext{
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 6% 5% 6% 5%;
+    border-radius: 10px;
+    text-align: center;
+    width: 90%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .example {
+    background: blue;
+    /* display: none; */
+  }
+  .bob11{
+    width: 100%;
+  }
+  .picbttext{
+    font-size: 10px;
+    font-weight: bold;
+    padding: 6% 5% 6% 5%;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+  }
+
+  .fimg{
+    width: 80%;
+  }
+  
+}
+
+@media (min-width: 992px) {
+
+  .example {
+    background: red;
+    /* display: none; */
+  }
+}

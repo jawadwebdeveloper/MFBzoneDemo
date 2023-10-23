@@ -1,0 +1,117 @@
+.bgheader{
+    background: #2F2F2F;
+    color: #FFFFFF;
+    padding: 1% 5% 2% 5%;
+}
+
+/* .label {
+    height: 38px;
+    width: 428px;
+} */
+
+.label .text-wrapper {
+    color: #ffffff;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-size: 1.3rem;
+    font-weight:lighter;
+}
+
+.phone{
+
+    color: #fdfdfd;
+    font-family: "Segoe UI-Semibold", Helvetica;
+    font-size: 1.1rem;
+    text-align: end;
+    align-items: end;
+    font-weight:lighter;
+}
+
+.or{
+    /* margin-left: -5%; */
+    
+    
+}
+
+/* p {
+    font-family: monospace;
+    font-size: 3em;
+    animation: color-change 1s infinite;
+  } */
+  
+  
+.off{
+    border-radius: 16px;
+    color: #2f2f2f;
+    background: #FF7518;
+    width: 65%;
+    margin-top: 3%;
+    margin-left: 12%;
+    font-weight: 500;
+    font-size: 1.2rem;
+    animation: color-change 4s infinite;
+}
+@keyframes color-change {
+    0% { background: red; }
+    50% { background: #FF7518; }
+    100% { background: red; }
+  }
+
+
+
+
+  
+/* Styles for screens smaller than 768 pixels */
+@media (max-width: 767px) {
+    .example {
+      background: green;
+      /* display: none; */
+      
+    }
+
+    .label .text-wrapper {
+        font-size: 15px;
+    }
+    .phonevv{
+        margin-left: -18%;
+    }
+    .off{
+        margin-left: 20%;
+    }
+    
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+  
+    .example {
+      background: blue;
+      /* display: none; */
+    }
+    .label .text-wrapper {
+        font-size: 15px;
+    }
+    /* .phonevv{
+        margin-left: -18%;
+    } */
+    .off{
+        margin-left: -5%;
+        border-radius: 16px;
+    color: #2f2f2f;
+    background: #FF7518;
+    width: 100%;
+    /* margin-top: 3%; */
+    /* font-weight: 500; */
+    font-size:15px;
+    }
+    .em{
+        font-size: 1rem;
+    }
+    
+  }
+  
+  @media (min-width: 992px) {
+  
+    .example {
+      background: red;
+      /* display: none; */
+    }
+  }

@@ -1,0 +1,167 @@
+.background-image {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-image: url('../../assets/images/footertopback.png');
+    background-size: cover;
+    background-position: center;
+    /* height: 30vh; */
+    height: 324px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+  
+
+   .plansupload{
+    color:#FFFFFF;
+    background: #ff7518;
+    padding: 7% 3% 7% 3%;
+    border-radius: 10px;
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20%;
+   }
+   .pp1{
+    color: #ffffff;
+font-family: "Segoe UI-Black", Helvetica;
+font-size: 30px;
+font-weight: bold;
+height: 100px;
+margin-top: 10%;
+   }
+
+
+.footerback{
+    background: #1b1b1b;
+    padding: 0% 0% 0% 0%;
+}
+
+.footerpara{
+    color:#FFFFFF;
+font-family: "Roboto-Bold", Helvetica;
+font-size: 15px;
+font-weight: 400;
+height: 212px;
+
+}
+
+.footerh2{
+    color: #ffffff;
+font-family: "Inter-Bold", Helvetica;
+font-size: 35px;
+font-weight: 700;
+text-align: center;
+}
+.footercontact{
+    color: #ffffff;
+font-family: "Inter-Bold", Helvetica;
+font-size: 35px;
+font-weight: 700;
+}
+
+.Copyright{
+    color: #FFFFFF;
+}
+
+
+  
+/* Styles for screens smaller than 768 pixels */
+@media (max-width: 767px) {
+    .example {
+      background: green;
+      /* display: none; */
+      
+    }
+    .background-image {
+        
+        height: 324px;
+      }
+      .plansupload{
+        padding: 5% 1% 5% 1%;
+        width: 80%;
+        margin-left: 8%;
+       }
+    .icc{
+        margin-left: 20%;
+    }
+    .pp1{
+    font-size: 15px;
+    font-weight: bold;
+    height: 100px;
+    margin-top: 10%;
+       }
+
+       .footerpara{
+    font-size: 10px;
+    
+    }
+
+    .footerh2{
+        font-size: 20px;
+    }
+
+    .footercontact{
+    font-size: 20px;
+    }
+    .jacksco{
+        font-size: 10px;
+    }
+    .Copyright{
+        font-size: 10px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+  
+    .example {
+      background: blue;
+      /* display: none; */
+    }
+    .background-image {
+        
+        height: 224px;
+      }
+    .plansupload{
+        padding: 5% 1% 5% 1%;
+        width: 80%;
+        margin-left: 8%;
+       }
+    .icc{
+        margin-left: 20%;
+    }
+    .pp1{
+    font-size: 20px;
+    font-weight: bold;
+    height: 100px;
+    margin-top: 10%;
+       }
+
+       .footerpara{
+        font-size: 10px;
+        
+        }
+    
+        .footerh2{
+            font-size: 20px;
+        }
+    
+        .footercontact{
+        font-size: 20px;
+        }
+        .jacksco{
+            font-size: 10px;
+        }
+        .Copyright{
+            font-size: 10px;
+        }
+   
+  }
+  
+  @media (min-width: 992px) {
+  
+    .example {
+      background: red;
+      /* display: none; */
+    }
+  }

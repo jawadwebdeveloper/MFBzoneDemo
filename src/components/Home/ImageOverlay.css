@@ -1,0 +1,77 @@
+.image-container {
+    position: relative;
+    overflow: hidden;
+    width: 101%; 
+    height: 200px;
+    
+  }
+
+
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+  
+  .image-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%; 
+    height: 100%;
+    background: linear-gradient(to right, #FF7518, transparent); 
+    z-index: 1;
+  }
+  .text {
+    position: absolute;
+    top: 70px; 
+    left: 200px;
+    color: white; 
+    font-size: 3rem; 
+    z-index: 2;
+  }
+
+
+  
+/* Styles for screens smaller than 768 pixels */
+@media (max-width: 767px) {
+  .example {
+    background: green;
+    /* display: none; */
+    
+  }
+  .text {
+    position: absolute;
+    top: 70px; 
+    left: 50px;
+    color: white; 
+    font-size: 1rem; 
+    z-index: 2;
+  }
+  
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .example {
+    background: blue;
+    /* display: none; */
+  }
+  .text {
+    position: absolute;
+    top: 70px; 
+    left: 50px;
+    color: white; 
+    font-size: 1.5rem; 
+    z-index: 2;
+  }
+}
+
+@media (min-width: 992px) {
+
+  .example {
+    background: red;
+    /* display: none; */
+  }
+}
