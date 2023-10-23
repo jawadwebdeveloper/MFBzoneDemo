@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/MFBzoneDemo/static/css/main.2b1f68ba.css",
+    "main.js": "/MFBzoneDemo/static/js/main.8628b31c.js",
+    "static/js/787.a871af92.chunk.js": "/MFBzoneDemo/static/js/787.a871af92.chunk.js",
+    "static/media/bob11.png": "/MFBzoneDemo/static/media/bob11.df3f3d750a4b35c50f11.png",
+    "static/media/Rectangle 82.png": "/MFBzoneDemo/static/media/Rectangle 82.3c77fc76ce283e08b694.png",
+    "static/media/footertopback.png": "/MFBzoneDemo/static/media/footertopback.5689f06078d798f5bd12.png",
+    "static/media/bob8.png": "/MFBzoneDemo/static/media/bob8.0bdd034a44ac0034aecc.png",
+    "static/media/bob10.png": "/MFBzoneDemo/static/media/bob10.e4fa8761476a5b00c743.png",
+    "static/media/bob9.png": "/MFBzoneDemo/static/media/bob9.bd8885d9bec6dcfe43bf.png",
+    "static/media/plim12.webp": "/MFBzoneDemo/static/media/plim12.7d96e3b69f4d2f57cbfc.webp",
+    "static/media/nointernet.png": "/MFBzoneDemo/static/media/nointernet.a0e285ebcb34d3ad14f2.png",
+    "index.html": "/MFBzoneDemo/index.html",
+    "main.2b1f68ba.css.map": "/MFBzoneDemo/static/css/main.2b1f68ba.css.map",
+    "main.8628b31c.js.map": "/MFBzoneDemo/static/js/main.8628b31c.js.map",
+    "787.a871af92.chunk.js.map": "/MFBzoneDemo/static/js/787.a871af92.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b1f68ba.css",
+    "static/js/main.8628b31c.js"
+  ]
+}
